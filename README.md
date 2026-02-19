@@ -26,7 +26,7 @@ This tool reads a list of song names from a text file, use Bilibili's public sea
 
 ### 1. Clone or download the script
 
-Save the provided Python script (e.g., `music.py`) to your computer.
+Save the provided Python script (e.g., `music-downloader.py`) to your computer.
 
 ### 2. Install dependencies
 
@@ -69,7 +69,7 @@ pip install --user requests yt-dlp
 
 2. **Run the script**  
    ```bash
-   python music.py
+   python music-downloader.py
    ```
    By default, the script expects `songs.txt` in the current directory. You can change the filename by editing the `main("songs.txt")` line at the bottom.
 
